@@ -79,9 +79,15 @@ npm install
 node app.js
 
 ## 📸 Screenshots
-![Home Page](link-to-home-screenshot)
-![Product Listing](link-to-listing-screenshot)
-![Cart Page](link-to-cart-screenshot)
+![Home Page] ![image](https://github.com/user-attachments/assets/670840c7-f564-435e-adeb-400d17dd6640)
+![Product Listing]![Cart Page] ![image](https://github.com/user-attachments/assets/396a6bc2-77f9-4ded-897e-00853cdb3c25)
+
+✍️ Author
+Rahul Mourya
+GitHub | LinkedIn
+
+Let me know if you’d like help generating screenshots or want a badge version with GitHub stars, forks, etc.
+
 
 
 
