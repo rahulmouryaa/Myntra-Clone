@@ -1,0 +1,111 @@
+/* Footer.module.css */
+
+.footer {
+  background: #222;
+  color: #fff;
+  padding: 30px 0;
+  margin-top: 11rem;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Make sure the columns wrap for smaller screens */
+}
+
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.footer_column h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer_column a {
+  color: #b0b0b0;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer_column a:hover {
+  color: #00bcd4; /* Color for hover */
+}
+
+.footer_column svg {
+  transition: transform 0.3s ease-in-out;
+}
+
+.footer_column a:hover svg {
+  transform: scale(1.2); /* Hover effect */
+}
+
+.footer_column img {
+  width: 120px;
+  margin-top: 10px;
+}
+.footer_column a img {
+  width: 150px;
+  margin-right: 10px;
+}
+
+.footer_column a img:last-child {
+  margin-right: 0;
+}
+  
+.social_icons {
+  display: flex;
+  gap: 15px; /* Space between icons */
+  align-items: center;
+}
+
+.social_icons a {
+  color: #b0b0b0;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.social_icons a:hover {
+  color: #00bcd4; /* Color for hover effect */
+}
+
+.social_icons a svg {
+  margin-right: 8px; /* Space between icon and text */
+  transition: transform 0.3s ease-in-out;
+}
+
+.social_icons a:hover svg {
+  transform: scale(1.2); /* Hover effect on the icon */
+}
+
+hr {
+  margin: 20px 0;
+  border-color: #ccc;
+}
+
+.copyright {
+  color: #b0b0b0;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.copyright a {
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: #00bcd4;
+}
